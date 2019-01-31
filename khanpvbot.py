@@ -1,9 +1,5 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
-import requests
-from bs4 import BeautifulSoup
-import json
-import sys
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
